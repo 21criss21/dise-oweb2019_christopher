@@ -54,3 +54,35 @@
 body {
     width: 50%;
 }
+
+.size_cm {
+    width: 5cm;
+    height: 5cm;
+    background: orangered;
+    margin: 1cm;
+    
+}
+
+.size_mm {
+    width: 5mm;
+    height: 5mm;
+    background: yellow;
+    margin: 1mm;
+
+}
+
+.size_pt {
+    width: 5pt;
+    height: 5pt;
+    background: blue;
+    margin: 1pt;
+
+}
+
+.size_in {
+    width: 5in;
+    height: 5in;
+    background: red;
+    margin: 1in;
+
+}
