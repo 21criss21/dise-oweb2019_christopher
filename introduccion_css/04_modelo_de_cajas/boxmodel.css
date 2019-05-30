@@ -16,8 +16,8 @@ body {
 
 /* Estilo para el nav */
 nav {
-    width: 400px;
-    height: 100vh;
+    width: 100vw;
+    height: 80px;
     background: #3F85DF;
     border: solid 1px #707070;
 }
@@ -35,12 +35,13 @@ nav ul li {
     margin-left: 0;
     margin-right: 0;
 
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
 
     border: solid 1px #707070;
+    display: inline-block;
 }
 
 nav h1 {
