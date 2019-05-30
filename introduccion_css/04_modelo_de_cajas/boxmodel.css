@@ -52,3 +52,14 @@ nav h1 {
     font-weight: normal;
 }
 
+nav li.active {
+    background: rgba(0, 0, 0, 0.5)
+}
+
+nav h1 {
+    display: none;
+}
+
+img {
+    width: 300px;
+}
