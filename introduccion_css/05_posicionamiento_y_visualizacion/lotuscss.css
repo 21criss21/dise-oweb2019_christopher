@@ -1,0 +1,30 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #aaa;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
