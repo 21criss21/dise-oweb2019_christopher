@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 /* Reset */
 * {
     margin: 0;
@@ -5,7 +6,9 @@
 }
 
 body {
-    font-family: Arial;
+    font-family: 'Montserrat',
+    sans-serif;
+    background: #fef5da;
 }
 
 .container {
@@ -15,9 +18,92 @@ body {
     
 }
 
-.containerdos {
+nav {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+div a {
+    color: #AAA;
+    text-decoration: none;
+}
+
+/* Cmbiar color en el hover*/
+
+nav a:hover {
+    color: black;
+    border-bottom: black;
+}
+
+header nav div a {
+    color: #21292d;
+    text-transform: uppercase;
+}
+
+nav a {
+    margin-left: 30px;
+}
+
+section article div {
+    width: 50%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section article div h1 {
+    font-size: 70px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+section article div p {
+    font-size: 13px;
+    width: 70%;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+
+section article div a {
+    color: #150C24;
+}
+
+section article div a i {
+    padding-right: 10px;
+}
+
+/* Clases de utilidad */
+
+.btn {
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 5%;
+}
+
+.bta {
+    font-weight: bold;
+    margin-left: 20px;
+    padding: 15px 20px ;
+    font-size: 15px;
+    border-radius: 5%;
+}
+
+
+section#principal {
+    background-image: url(img/mujer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    height: 100vh;
+}
+
+.bg-salmon {
+    background-color: #FF6B71;
+}
+
+.bordes {
+    border: solid 1px;
+}
+
